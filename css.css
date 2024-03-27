@@ -1,0 +1,50 @@
+body {
+    background-color: var(--main-black);
+}
+
+#titleBox {
+    width: 40%;
+    text-align: center;
+    background-color: var(--secondary-black);
+    color: white;
+}
+
+h1 {
+    padding: 0;
+    margin-top: 6px;
+}
+
+#menu {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    border-top: 0;    
+}
+
+.box {
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    background-color: var(--secondary-black);
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    transition: font-size 0.3s ease;
+    transition: padding-top 0.3s ease;
+}
+.box:hover {
+    background-color: var(--primary-color);
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+:root{
+    --primary-color: #749C75;
+    --secondary-color: #B2BD7E;
+    --third-color: #B4E7CE;
+    --dark-color: #474A2C;
+    --light-dark-color: #636940;
+    --main-black: #222831;
+    --secondary-black: #31363F;
+}
+
