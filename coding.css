@@ -1,0 +1,29 @@
+.project {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto 0;
+}
+
+.project-title {
+    width: 100%;
+    color: white;
+}
+
+.project-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.project-image {
+    width: 28%;
+    height: auto;
+}
+
+.project-text {
+    width: 63%;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
