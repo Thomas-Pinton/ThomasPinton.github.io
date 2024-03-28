@@ -2,6 +2,7 @@ body {
     background-color: var(--main-black);
     width: 80%;
     margin: 0 auto;
+    
 }
 
 a {
@@ -13,6 +14,15 @@ a {
     text-align: center;
     background-color: var(--secondary-black);
     color: white;
+}
+
+#boxWrapper {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    border-top: 0;
+    margin-bottom: 0;
 }
 
 h1 {
@@ -42,9 +52,27 @@ h1 {
 }
 
 .box:hover {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     font-size: 20px;
     padding-top: 12px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    #menu {
+        height: 100px;
+        flex-wrap: wrap;
+        
+    }
+    #titleBox {
+        width: 100%;
+        padding-top: 20px;
+    }
+    #boxWrapper {
+        width: 100%;
+    }
 }
 
 :root{
